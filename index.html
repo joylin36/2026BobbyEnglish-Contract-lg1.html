@@ -9,6 +9,7 @@
         :root {
             --uci-blue: #1b3d6d;
             --uci-gold: #fecc07;
+            --soft-red: #e74c3c;
         }
         
         * {
@@ -69,7 +70,7 @@
             display: inline-block;
         }
 
-        /* 🔒 守護方格地基：死死鎖定傳統表格排版，手機端橫向流暢溢位不跑版 */
+        /* 🔒 守護方格地基：死死鎖定傳統表格排版 */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -138,7 +139,7 @@
             border: 1px solid #ccc;
             background-color: #fafbfc;
             padding: 20px;
-            height: 380px;
+            height: 420px; /* 稍微加高，提供桃園法規最舒適的捲動大空間 */
             overflow-y: scroll;
             font-size: 13px;
             line-height: 1.7;
@@ -265,7 +266,7 @@
             <div class="contract-header">
                 <h1>巴比美語短期補習班 ｜ 短期補習服務契約書</h1>
                 <h2>Bobby English Cram School - Short-Term Tuition Service Contract</h2>
-                <p style="font-size: 11px; color: #666; margin: 10px 0 0 0;">(依據教育部短期補習班補習服務契約書範本與桃園市最新設立及管理法規制定)</p>
+                <p style="font-size: 11px; color: #666; margin: 10px 0 0 0;">(依據教育部短期補習班補習服務契約書範本與桃園市最新設立及管理法規制定-2026年9月版)</p>
             </div>
 
             <!-- 🎯 契約審閱確認條款 -->
@@ -326,7 +327,7 @@
                     <tr>
                         <th><span class="zh-title">課程科目內容</span><span class="en-title">Course Content</span></th>
                         <td colspan="3" style="font-size: 12px; color: #555;">
-                            兒童/青少年美語特訓 (涵蓋 Phonics 自然發音、生活情境對話、聽說讀寫強化訓練)
+                            兒童/青少年美語特訓 (涵蓋 Phonics 自然發音進階、生活情境對話、聽說讀寫強化訓練)[cite: 1]
                         </td>
                     </tr>
                     <tr>
@@ -348,69 +349,88 @@
                 </tbody>
             </table>
 
-            <div class="section-title">三、短期補習服務定型化契約應記載條款 (中英對照)</div>
+            <div class="section-title">三、短期補習服務定型化契約應記載條款 (中英對照 ✕ 桃園法規補齊版)</div>
             <div class="legal-box">
+                <!-- 🔧 依照指令：完整補齊 2026 桃園市教育局核定之所有法規明細 -->
                 <div class="legal-item">
-                    <strong>第一條：契約收受確認與審閱 / Acknowledgment of Contract Receipt：</strong><br>
-                    甲方確認於實際上課日前已收受並攜回本契約原本審閱至少五日。本課程為一般系統化正規美語進度班，非屬保證班（無特定保證內容、無保證考取或保證期間等承諾）。<br>
-                    <span class="legal-en">Party A acknowledges receipt of this contract for review at least five days prior to classes. This course is a standard systematic progression class and is NOT a guaranteed success program.</span>
+                    <strong>前言：契約收受確認 / Preamble: Acknowledgment of Contract Receipt：</strong><br>
+                    甲方於修業前已收受本契約原本（或審閱本）[cite: 1]。甲方確認於實際上課日前已收受並攜回本契約原本審閱至少五日[cite: 1]。<br>
+                    <span class="legal-en">Party A acknowledges receipt of the original copy (or review copy) of this contract[cite: 1]. The contract review period shall be at least five days[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第二條：插班日與修業期間認定 / Late Enrollment & Course Period：</strong><br>
-                    修業期間自立約登載之開課日起算。課程開始後始報名插班者，應以報名後最近一次上課日作為開課日，並以該課程剩餘期間及未上課時數作為總時數比例計費。<br>
-                    <span class="legal-en">The course period starts from the designated start date. For students registering after the course has commenced, the immediate next class date after registration shall be recognized as the start date.</span>
+                    <strong>第一條：就讀班級與班級名稱 / Article 1: Class and Enrollment：</strong><br>
+                    本契約就讀班級名稱依甲方於前項核定選擇之選讀班別為準[cite: 1]。本課程為一般系統化正規美語進度班，非屬保證班（無特定保證內容、無保證考取或保證期間等承諾）[cite: 1]。<br>
+                    <span class="legal-en">The enrolled class name is based on the dynamically selected plan[cite: 1]. This course is a standard systematic progression class and is NOT a guaranteed success or warranty program[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第三條：專業師資保障與更換限制 / Faculty Qualifications & Replacement Limit：</strong><br>
-                    乙方所聘任之教學人員（如 Teacher Bobby、Teacher Joy 等）皆具備合格教學資格與實名防查登記。乙方無正當事由不得任意更換教學人員，更換時人數不得超過原聘總教學人員三分之一，且須以相同專業資格者為限。<br>
-                    <span class="legal-en">Instructors (e.g., Teacher Bobby, Teacher Joy) are fully qualified with clear real-name criminal records. Instructors shall not be replaced without justification; replacement is strictly capped at 1/3 and restricted to equivalent qualifications.</span>
+                    <strong>第二條：課程科目、內容與授課時數 / Article 2: Course Subjects and Weekly Hours：</strong><br>
+                    1. 課程科目內容：兒童/青少年美語特訓（涵蓋 Phonics 自然發音進階、生活情境對話、聽說讀寫強化訓練）[cite: 1]。<br>
+                    2. 班級編制：採精緻小班制教學，每班實際點名上課人數上限嚴格遵守政府法令規範，以確保教學品質[cite: 1]。<br>
+                    <span class="legal-en">1. Course Subject Content: Children/Junior English Training (including advanced Phonics, situational dialogues, etc.)[cite: 1]. 2. Class Size: Exquisite small-class system strictly complying with government regulations to ensure quality[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第四條：上課地點與人數上限保障 / Location & Class Size Limit：</strong><br>
-                    乙方應於經核准之法定班址（桃園市桃園區莊二街156號1樓）教室上課。為維護教學品質，每班實際上課人數上限應嚴格遵守政府法令規範。因可歸責於乙方之事由（如教師請假、排課錯誤等）暫時調動既定上課時間，致甲方無法配合而缺課者，乙方應予以補課、提供補課錄影，或經比例計算後返還該節課程費用。<br>
-                    <span class="legal-en">Classes must be held at the approved location. The class size shall strictly comply with government regulations. If a class is rescheduled due to reasons attributable to the school and the student cannot attend, the school must provide make-up classes, recordings, or proportional refunds.</span>
+                    <strong>第三條：修業期間、開課日與插班機制 / Article 3: Course Period and Later Enrollment：</strong><br>
+                    1. 修業期間自簽約就讀當期月份起算至該級數課程結束止[cite: 1]。<br>
+                    2. 插班認定規範：課程開始後始報名插班者，應以報名後最近一次上課日作為開課日（未填列時以甲方實際第一次上課日為開課日），並以該課程剩餘期間及未上課時數作為總課程時數比例計費[cite: 1]。<br>
+                    <span class="legal-en">1. The course period starts from the registered month until the end of the term[cite: 1]. 2. For later enrollment, the immediate next class date after registration shall be recognized as the start date, and the remaining period constitutes the total hours[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第五條：依約收費手續與贈品規範 / Fees Collection & Promotional Gifts：</strong><br>
-                    乙方收取費用應開立正式收據。繳費項目未明列於契約者，乙方不得收取。如因繳費而獲得之贈品（價值不得逾繳費總金額20%），於契約終止或解除時，乙方不得向甲方請求返還該贈品，亦不得扣除該贈品價額。<br>
-                    <span class="legal-en">Official receipts must be issued. Fees not specified in the contract shall not be collected. Promotional gifts (value capped at 20% of total fees) are non-returnable and non-deductible upon contract termination.</span>
+                    <strong>第四條：收費項目、金額及不當收費之禁止 / Article 4: Fees and Formal Receipts：</strong><br>
+                    本課程費用已全面進行原價（Full Price）調整[cite: 1]。乙方對甲方收取之費用項目及收費標準明列於本約第二條計費雷達中，未明列之項目，乙方不得收取[cite: 1]。收取費用應開立正式收據[cite: 1]。<br>
+                    <span class="legal-en">Fees are listed dynamically with the designated configuration applied[cite: 1]. Items not specified shall not be collected, and official receipts must be issued[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第六條：桃園市法定退費標準 / Legal Refund Policy (Taoyuan City Regulations)：</strong><br>
-                    依據「桃園市短期補習班退費管理自治條例」第三條規範，因個人因素離班者，乙方應於要求退費之日起七日內依下列標準退費：<br>
-                    (1) 學生於實際開課日前第30日以前要求退費者，應退還當期依約繳納費用之總額 (100% refund if requested 30 days or more prior to the start date).<br>
-                    (2) 學生於實際開課日前第1日至第29日要求退費者，應退還當期依約繳納費用總額之百分之九十，但補習班收取金額以新臺幣一千元為限，超過部分仍應退還 (90% refund if requested within 1-29 days prior; kept amount capped at NT$1,000).<br>
-                    (3) 學生於實際開課日起五日內要求退費者，應退還當期依約繳納費用總額之百分之八十 (80% refund if requested within the first 5 days of class).<br>
-                    (4) 學生於實際開課日起第六日至全期或總課程時數之三分之一期間內要求退費者，應退還百分之五十 (50% refund from the 6th day until 1/3 of the course term).<br>
-                    (5) 逾全期或總課程時數之三分之一者，所收取之費用得全數不予退還 (No refund after 1/3 of the course term has passed).<br>
-                    代辦之教材費若已購置且已發放予甲方者，恕不予退還，教材歸甲方所有 (Distributed textbooks/materials are completely non-refundable and belong to the student).
-                    <span class="legal-en">Refunds are processed strictly within 7 days according to Taoyuan City regulations. Distributed materials are non-refundable.</span>
+                    <strong>第五條：桃園市法定退費標準 / Article 5: Refund Policy (Taoyuan City Regulations)：</strong><br>
+                    依據「桃園市短期補習班退費管理自治條例」規定，學員因個人因素離班者，補習班應於要求退費之日起七日內依下列標準辦理退費[cite: 1]：<br>
+                    (1) 實際開課日前第30日以前要求退費者：應退還當期開班依約繳納費用之總額[cite: 1]。<br>
+                    (2) 實際開課日前第1日至第29日要求退費者：應退還當期開班依約繳納費用總額之百分之九十。但所收取金額以新臺幣一千元為限，超過部分仍應退還[cite: 1]。<br>
+                    (3) 實際開課日起5日內要求退費者：應退還當期開班依約繳納費用總額之百分之八十[cite: 1]。<br>
+                    (4) 實際開課日起之第六日，至全期或總課程時數之三分之一期間內要求退費者：應退還當期開班依約繳納費用總額之百分之五十[cite: 1]。<br>
+                    (5) 已逾全期或總課程時數之三分之一者：所收取之當期費用，得全數不予退還[cite: 1]。<br>
+                    (6) 代辦之教材費若已購置且已發放予甲方者，不予退還，教材歸甲方所有[cite: 1]。<br>
+                    <span class="legal-en">Refunds are processed strictly within 7 days according to Taoyuan City short-term cram school regulations[cite: 1]. Distributed materials are completely non-refundable and belong to the student[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第七條：請假規範與無故缺課處理 / Absence and Unexcused Absences：</strong><br>
-                    學員因病、事假未能出席，家長須於上課前兩小時透過官方 LINE 或電話完成請假。完成正當請假者，本班將提供一對一或小組補課輔導。未依規定請假而無故缺課（曠課）者，視同放棄該堂課程權益，不另行安排補課，亦不予扣除學費或退費。<br>
-                    <span class="legal-en">Parents must request leave via official LINE or phone at least 2 hours prior to class. Instructors will arrange make-up tutoring for approved leaves; unexcused absences constitute a waiver of rights with no make-ups or refunds.</span>
+                    <strong>第六條：請假規範與無故缺課處理 / Article 6: Absences and Leaves：</strong><br>
+                    1. 學生若因病、事假無法出席課程，家長應於上課前兩小時透過官方 LINE 或電話完成請假程序[cite: 1]。<br>
+                    2. 完成請假者，本班將提供該導師安排合適時間進行一對一/小組補課、輔導[cite: 1]。<br>
+                    3. 未依規定請假而無故缺課者，視同放棄該堂課程權益，本班不另行安排個人補課，亦不予扣除學費或退費[cite: 1]。<br>
+                    <span class="legal-en">Parents must request leave at least 2 hours prior via official LINE or phone[cite: 1]. Approved leaves will receive make-up classes[cite: 1]; unexcused absences constitute a waiver of rights[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第八條：違規行為處置與契約終止 / Termination and Student Conduct：</strong><br>
-                    學員於修業期間應遵守課堂秩序。若有互毆、竊盜、吸毒販毒、嚴重破壞公物或其他違法行為經查屬實且情節重大者，乙方得終止本契約，並依第六條退費規定辦理。若乙方有歇業、停辦、或教室經公共安全檢查勒令停止使用者，應按賸餘課程時數比例核算退還費用。<br>
-                    <span class="legal-en">Party A must maintain order. For major disruptions, thefts, or illegal acts, Party B may terminate the contract and issue refunds according to Article 6. If Party B closes, suspends, or location becomes unsafe, proportional refunds must be issued.</span>
+                    <strong>第七條：可歸責調課與補課權益保障 / Article 7: Class Rescheduling Protection：</strong><br>
+                    因可歸責於乙方之事由（如教學人員請假等）調動上課時間，致甲方無法配合而缺課者，乙方應予以補課、提供錄影，或經比例計算後返還該節課程費用[cite: 1]。<br>
+                    <span class="legal-en">If a class is rescheduled due to reasons attributable to the school and the student cannot attend, the school must provide make-up classes, recordings, or refund the class fee proportionally[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第九條：個人資料保護與肖像授權 / Privacy Protection & Portrait Rights：</strong><br>
-                    未經甲方書面同意，乙方不得擅自將甲方個資提供給第三人或作不當利用。乙方應嚴格遵守《個人資料保護法》。甲方同意並合理授權乙方得於教學活動、節慶成果中進行拍照及錄影，合理使用於補習班內部學習成果展示或官方網站招生推廣，且承諾絕不損及學生名譽。<br>
-                    <span class="legal-en">Data handling must fully comply with the Personal Data Protection Act. Party A agrees that Party B may take photos/videos during classes or events for achievement displays or promotions, provided it doesn't harm the student's reputation.</span>
+                    <strong>第八條：專業師資保障與變更懲罰 / Article 8: Faculty Qualifications & Replacement Limit：</strong><br>
+                    1. 乙方應確保教學場所之公共安全、消防設施及公共意外責任險符合政府法令規範[cite: 1]。<br>
+                    2. 乙方所聘任之任課教師（如 Teacher Bobby、Teacher Joy 等）皆應具備合格教學資格，並落實無犯罪紀錄之實名防查登記[cite: 1]。無正當事由不得任意更換教學人員，更換時人數不得超過三分之一，且須以相同專業資格者為限[cite: 1]。<br>
+                    3. 變更合約終止：乙方無正當事由變更原訂課程、科目、時數、上課地點或更換教學人員超過三分之一人數者，甲方得終止契約，乙方應依甲方已繳金額費用加計30%退還甲方[cite: 1]。<br>
+                    <span class="legal-en">Instructors are fully qualified with clear criminal tracking[cite: 1]. Instructor replacements are capped at 1/3[cite: 1]. If breached, Party A may terminate the contract and receive a full refund plus an extra 30% penalty[cite: 1].</span>
                 </div>
                 <div class="legal-item">
-                    <strong>第十條：疑義處理與合約保存期限 / Interpretation & Duplicates Preservation：</strong><br>
-                    本契約各條款如有疑義時，應依消費者保護法第十一條第二項規定，為有利甲方之解釋。本契約一式二份，由甲乙雙方各執一份為憑。雙方同意契約約定保存期限為五年（不得少於稅捐稽徵法規定之五年）。<br>
-                    <span class="legal-en">Doubts regarding clauses shall lean in favor of the consumer based on the Consumer Protection Act. This contract is executed in duplicate, and must be preserved for at least 5 years.</span>
+                    <strong>第九條：違規行為處置與班級秩序 / Article 9: Termination and Student Conduct：</strong><br>
+                    甲方於修業期間應遵守課堂秩序，不得有干擾他人學習、破壞公物之行為[cite: 1]。若有嚴重危害班級安全、竊奪或違法行為且屢勸不聽者，乙方得終止本契約，並依第五條退費手續辦理[cite: 1]。<br>
+                    <span class="legal-en">Party A must maintain order[cite: 1]. For major disruptions, thefts, or illegal acts, Party B may terminate the contract and issue refunds according to Article 5[cite: 1].</span>
+                </div>
+                <div class="legal-item">
+                    <strong>第十條：肖像權合理授權與隱私保護 / Article 10: Portrait Rights and Privacy Protection：</strong><br>
+                    1. 甲方同意乙方於課堂教學、節慶活動或成果發表中進行拍照及錄影，並授權乙方得將其影像合理使用於補習班內部學習成果展示、官方網站或招生推廣文宣，且不損及學生名譽[cite: 1]。<br>
+                    2. 未經甲方書面同意，乙方不得擅自將甲方個人資料提供給第三人或作不當利用。乙方應嚴格遵守《個人資料保護法》之規定[cite: 1]。<br>
+                    <span class="legal-en">Party A agrees that Party B may take photos/videos for displays or promotion, provided it doesn't harm reputation[cite: 1]. Data handling must strictly comply with the Personal Data Protection Act[cite: 1].</span>
+                </div>
+                <div class="legal-item">
+                    <strong>第十一條：消費者保護疑義與保存期限 / Article 11: Interpretation and Miscellaneous：</strong><br>
+                    1. 本契約各條款如有疑義時，應依消費者保護法第十一條第二項規定，為有利甲方（消費者）之解釋[cite: 1]。<br>
+                    2. 本契約一式二份，由甲乙雙方各執一份為憑，並自簽約日起生效[cite: 1]。雙方同意合約保存期限不得少於五年[cite: 1]。<br>
+                    <span class="legal-en">Doubts regarding clauses shall lean in favor of the consumer based on the Consumer Protection Act[cite: 1]. This contract is executed in duplicate and preserved for at least 5 years[cite: 1].</span>
                 </div>
             </div>
 
             <div class="agreement-banner">
-                【重要法律聲明】 學生為限制行為能力人時，須得法定代理人允許或承認；為無行為能力人時，應由其法定代理人代為或代受意思表示。家長/監護人於下方手寫簽章即視為已完全允許、承認並代為履行本契約之所有權利與義務。<br>
-                <span style="font-size: 11px; font-weight: normal; display: block; margin-top: 3px; font-style: italic;">Mandatory Legal Notice: If the student is a minor, this contract must be acknowledged by the legal guardian. Signature below implies full authorization and acknowledgment of all contractual terms.</span>
+                【重要法律聲明】 學生為限制行為能力人時，須得法定代理人允許或承認；為無行為能力人時，應由其法定代理人代為或代受意思表示[cite: 1]。家長/監護人於下方手寫簽章即視為已完全允許、承認並代為履行本契約之所有權利與義務[cite: 1]。<br>
+                <span style="font-size: 11px; font-weight: normal; display: block; margin-top: 3px; font-style: italic;">Mandatory Legal Notice: If the student is a minor, this contract must be acknowledged by the legal guardian[cite: 1]. Signature below implies full authorization and acknowledgment[cite: 1].</span>
             </div>
 
             <div class="section-title">四、家長/監護人親筆劃布手寫電子簽章艙 / Electronic Signature Pad</div>
@@ -423,10 +443,10 @@
 
             <!-- 🔒 乙方補習班法定登載天線 -->
             <div style="margin-top: 20px; font-size: 12px; color: #555; border-top: 1px solid #ccc; padding-top: 15px; line-height: 1.6;">
-                <b>補習班全銜 (Party B)：</b>巴比美語短期補習班 (Bobby English Cram School) <br>
-                <b>負責人兼設立代表人：</b>巴比主任 / 經辦人員：Joy <br>
-                <b>設立核准立案字號：</b>府教社字第0930131461號 | <b>聯絡電話：</b>03-2161338 <br>
-                <b>立案地址：</b>330 桃園市桃園區莊二街156號1樓 <br>
+                <b>補習班全銜 (Party B)：</b>巴比美語短期補習班 (Bobby English Cram School)[cite: 1]<br>
+                <b>負責人兼設立代表人：</b>巴比主任 / 經辦人員：Joy[cite: 1]<br>
+                <b>設立核准立案字號：</b>府教社字第0930131461號 | <b>聯絡電話：</b>03-2161338[cite: 1]<br>
+                <b>立案地址：</b>330 桃園市桃園區莊二街156號1樓[cite: 1]<br>
                 <b>電子合約正式生效日期 (Date of Agreement)：</b><span id="currentDateDisplay" style="font-weight: bold; color: var(--uci-blue);"></span>
             </div>
 
@@ -447,7 +467,7 @@ var courseBrainDatabase = {
     "Let's Go 5": { tuition: 31620, materials: 1612, misc: 3060, total: 36292, schedule: "每週授課3次，每次2小時，每週共計6小時 (每週一、週三、週五 4:30 PM - 6:30 PM)" },
     "Let's Go 6": { tuition: 31620, materials: 1612, misc: 3060, total: 36292, schedule: "每週授課3次，每次2小時，每週共計6小時 (每週一、週三、週五 4:30 PM - 6:30 PM)" },
     "Advance A1": { tuition: 26180, materials: 2966, misc: 2040, total: 31186, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週三、週五 4:30 PM - 6:30 PM)" },
-    "Advance A2": { tuition: 29260, materials: 3826, misc: 2280, total: 35366, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四 4:30 PM - 6:30 PM)" },
+    "Advance A2": { tuition: 29260, materials: 3826, misc: 2280, total: 35366, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週外 4:30 PM - 6:30 PM)" },
     "Advance B1 新進": { tuition: 31160, materials: 3240, misc: 2280, total: 36680, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四晚上 7:00 - 9:00 PM)" },
     "Advance B1 晉升": { tuition: 31160, materials: 500, misc: 2280, total: 33940, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四晚上 7:00 - 9:00 PM)" },
     "Advance B2 新進": { tuition: 31160, materials: 3240, misc: 2280, total: 36680, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四晚上 7:00 - 9:00 PM)" },
@@ -485,7 +505,7 @@ canvas.addEventListener('touchmove', function(e) {
     var rect = canvas.getBoundingClientRect();
     draw(t.clientX - rect.left, t.clientY - rect.top);
 }, {passive: true});
-canvas.addEventListener('toucheng', function() { isDrawing = false; ctx.beginPath(); });
+canvas.addEventListener('touchend', function() { isDrawing = false; ctx.beginPath(); });
 
 function draw(x, y) {
     ctx.lineTo(x, y);
@@ -511,14 +531,46 @@ function syncCourseBrain() {
         document.getElementById('td_misc').innerText = "NT$ " + data.misc.toLocaleString() + " 元";
         document.getElementById('td_total').innerText = "NT$ " + data.total.toLocaleString() + " 元";
         
-        // 將數據壓入隱形傳輸天線，確保 FormSubmit 資料夾完美分類
+        // 將數據壓入隱形傳輸天線
         document.getElementById('hidden_tuition').value = data.tuition + " 元";
         document.getElementById('hidden_materials').value = data.materials + " 元";
         document.getElementById('hidden_misc').value = data.misc + " 元";
         document.getElementById('hidden_schedule').value = data.schedule;
         
         document.getElementById('formSubject').value = "【電子合約核定】巴比美語 (" + courseKey + ") 定型化契約回傳成功";
-        document.getElementById('dynamicBannerDisplay').innerHTML = TARGET_COURSE_PREFIX + " ｜ " + courseKey + " 線上定型化契約書";
+    }
+}
+
+// ===== 📡 跨廣告連動天線解碼核心 (🎨 新增功能：自動感應招生廣告 Join Now 點擊代碼) =====
+function decodeUrlParams() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var classParam = urlParams.get('class'); // 讀取廣告傳來的 ?class= 參數
+    
+    if (classParam) {
+        var selector = document.getElementById('courseSelector');
+        var targetValue = "";
+        
+        // 對應各級數代碼映射晶片
+        switch(classParam.toUpperCase()) {
+            case 'LG1': targetValue = "Let's Go 1"; break;
+            case 'LG2': targetValue = "Let's Go 2"; break;
+            case 'LG3': targetValue = "Let's Go 3"; break;
+            case 'LG4': targetValue = "Let's Go 4"; break;
+            case 'LG5': targetValue = "Let's Go 5"; break;
+            case 'LG6': targetValue = "Let's Go 6"; break;
+            case 'ADV_A1': targetValue = "Advance A1"; break;
+            case 'ADV_A2': targetValue = "Advance A2"; break;
+            case 'ADV_B1_NEW': targetValue = "Advance B1 新進"; break;
+            case 'ADV_B1_UP': targetValue = "Advance B1 晉升"; break;
+            case 'ADV_B2_NEW': targetValue = "Advance B2 新進"; break;
+            case 'ADV_B2_UP': targetValue = "Advance B2 晉升"; break;
+            case 'ADV_C1_NEW': targetValue = "Advance C1 新進"; break;
+            case 'ADV_C1_UP': targetValue = "Advance C1 晉升"; break;
+        }
+        
+        if (targetValue) {
+            selector.value = targetValue; // 瞬間自動切換下拉選單！
+        }
     }
 }
 
@@ -542,8 +594,6 @@ function prepareSubmit(event) {
     document.getElementById('contractForm').submit();
 }
 
-var TARGET_COURSE_PREFIX = "2026 全班別通用型";
-
 window.onload = function() {
     resizeCanvas();
     window.addEventListener('resize', resizeCanvas);
@@ -551,7 +601,8 @@ window.onload = function() {
     var today = new Date();
     document.getElementById('currentDateDisplay').innerText = today.getFullYear() + " 年 " + (today.getMonth() + 1) + " 月 " + today.getDate() + " 日";
     
-    syncCourseBrain();
+    decodeUrlParams(); // 📡 優先攔截並解碼網址天線引導
+    syncCourseBrain(); // 智慧計費雷達瞬間刷新
 };
 </script>
 </body>
