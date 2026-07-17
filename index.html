@@ -214,7 +214,7 @@
             border-radius: 4px;
         }
 
-        /* 👑 🎨 完美修復：重新加回「確認條款並電子送出合約」黃金造型按鈕 CSS 晶片 */
+        /* 👑 🎨 黃金大按鈕造型晶片 ── 100% 完美呈現 */
         .submit-btn-container {
             text-align: center;
             margin-top: 30px;
@@ -234,6 +234,7 @@
             max-width: 450px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.2s, box-shadow 0.2s;
+            display: inline-block;
         }
 
         .submit-btn:hover {
@@ -402,16 +403,14 @@
                     <span class="legal-en">1. The enrolled class name under this contract shall be based on the dynamic course plan checked by Party A. This course is a standard systematic progression class and is NOT a "guaranteed success" or "warranty" program (No specific guarantee contents, guaranteed pass, or warranty period commitments shall apply).</span>
                 </div>
                 
-                <!-- 🎯 🔧 依照最高指示 2：法規本文內文同步加裝智慧天線，讓科目英文說明與內文也動態連動切換 -->
                 <div class="legal-item">
                     <strong>第二條：課程科目、內容與授課時數 / Article 2: Course Subjects, Content, and Weekly Hours：</strong><br>
                     1. 課程科目內容：<span id="legal_course_content" style="color: #0077b6; font-weight: bold;">自動連動加載中...</span><br>
                     2. 每週授課時數：時數、班別與時間依據所選班級對應之課表辦理。<br>
                     3. 班級編制：採精緻小班制教學，每班實際點名上課人數上限嚴格遵守政府法令規範，以確保教學品質。<br>
-                    <span class="legal-en">1. Course Subject Content: <span id="legal_course_content_en" style="font-style: italic;">Loading legal terminology...</span><br>2. Weekly Hours: The weekly schedule and class hours shall correspond strictly to the official class timetable designated for the selected course[cite: 1].<br>3. Class Size: Exquisite small-class system. The number of students per class shall strictly comply with government regulatory limitations to ensure teaching quality.</span>
+                    <span class="legal-en">1. Course Subject Content: <span id="legal_course_content_en" style="font-style: italic; font-weight: bold; color: #555;">Loading legal terminology...</span><br>2. Weekly Hours: The weekly schedule and class hours shall correspond strictly to the official class timetable designated for the selected course.<br>3. Class Size: Exquisite small-class system. The number of students per class shall strictly comply with government regulatory limitations to ensure teaching quality.</span>
                 </div>
                 
-                <!-- 🎯 🔧 依照最高指示 1：完美同步正式開課日為 08 月 31 日，與招生廣告毫無偏差 -->
                 <div class="legal-item">
                     <strong>第三條：修業期間、開課日與插班機制 / Article 3: Course Period, Start Date, and Acknowledgment：</strong><br>
                     1. 修業期間自民國115年09月起至課程結束止。實際正式開課日為民國115年08月31日，前項期間或開課日之認定，以甲乙雙方約定為準.<br>
@@ -421,8 +420,8 @@
                 
                 <div class="legal-item">
                     <strong>第四條：收費項目、金額及不當收費之禁止 / Article 4: Fees and Payment Methods：</strong><br>
-                    本課程費用已依據優惠方案進行原價調整，未明列之項目，乙方不得收取[cite: 1]。收取費用應開立正式收據[cite: 1]。<br>
-                    <span class="legal-en">The tuition fees have been adjusted to the standard configuration based on the promotional discount plan. Party B shall not collect any fee items that are not explicitly specified in this contract. Official receipts must be issued for all fees collected[cite: 1].</span>
+                    本課程費用已依據優惠方案進行原價調整，未明列之項目，乙方不得收取。收取費用應開立正式收據。<br>
+                    <span class="legal-en">The tuition fees have been adjusted to the standard configuration based on the promotional discount plan. Party B shall not collect any fee items that are not explicitly specified in this contract. Official receipts must be issued for all fees collected.</span>
                 </div>
                 
                 <div class="legal-item">
@@ -468,7 +467,7 @@
                 <div class="legal-item">
                     <strong>第十條：肖像權合理授權與個資隱私保護 / Article 10: Portrait Rights and Personal Data Privacy Protection：</strong><br>
                     1. 甲方同意乙方於課堂教學、節慶活動或成果發表中進行拍照及錄影，並授權乙方得將其影像合理使用於補習班內部學習成果展示、官方網站或招生推估文宣，且不損及學生名譽。<br>
-                    2. 未經甲方書面同意，乙方不得擅自將甲方個人資料提供給第三人或作不當利用。乙方應严格遵守《個人資料保護法》之規定，僅用於教學行政與聯絡。<br>
+                    2. 未經甲方書面同意，乙方不得擅自將甲方個人資料提供給第三人或作不當利用。乙方應嚴格遵守《個人資料保護法》之規定，僅用於教學行政與聯絡。<br>
                     <span class="legal-en">1. Party A agrees that Party B may take photos and videos during classes, holiday events, or achievement presentations, and authorizes Party B to reasonably use the images for internal displays, the official website, or promotional marketing materials, provided it doesn't harm the student's reputation.<br>2. Without explicit written consent, Party B shall not provide personal data of Party A to third parties or utilize it improperly. Party B must strictly handle all data in full compliance with the Personal Data Protection Act solely for tutoring administration and communication.</span>
                 </div>
                 
@@ -481,7 +480,7 @@
             </div>
 
             <div class="agreement-banner">
-                【重要法律聲明】 學生為限制行為能力人時，須得法定代理人允許或承認；為無行為能力人時，應由其法定代理人代為或代受意思表示。家長/監護人於下方手寫簽章即視為已完全允許、承認並代為履行本契約之所有權利與義務。<br>
+                【重要法律聲明】 學生為限制行為能力人時，須得法定代理人允許或承認；為無行為能力人時，應由其法定代理人代為 or 代受意思表示。家長/監護人於下方手寫簽章即視為已完全允許、承認並代為履行本契約之所有權利與義務。<br>
                 <span style="font-size: 11px; font-weight: normal; display: block; margin-top: 3px; font-style: italic;">Mandatory Legal Notice: If the student is a minor with limited or no capacity, this contract must be signed/acknowledged by the legal guardian. Signature below implies full authorization and acknowledgment of all contractual rights and obligations.</span>
             </div>
 
@@ -502,7 +501,7 @@
                 <b>電子合約正式生效日期 (Date of Agreement)：</b><span id="currentDateDisplay" style="font-weight: bold; color: var(--uci-blue);"></span>
             </div>
 
-            <!-- 👑 🎨 造型按鈕歸位艙：完美重新渲染黃金圓角高質感外觀 -->
+            <!-- 👑 🎨 圓角黃金按鈕完全體 -->
             <div class="submit-btn-container">
                 <button type="submit" id="submitBtn" class="submit-btn">確認條款並電子送出合約 / Submit Signed Contract</button>
             </div>
@@ -519,8 +518,8 @@ var courseBrainDatabase = {
     "Let's Go 4": { tuition: 31620, materials: 1572, misc: 3060, total: 36252, schedule: "每週授課3次，每次2小時，每週共計6小時 (週一 4:30-6:30 PM & 週三、週五 1:30-3:30 PM)", content: "Let's Go 4 美語教學 (涵蓋 Phonics 自然發音進階、生活情境對話、聽說讀寫強化訓練)" },
     "Let's Go 5": { tuition: 31620, materials: 1612, misc: 3060, total: 36292, schedule: "每週授課3次，每次2小時，每週共計6小時 (每週一、週三、週五 4:30 PM - 6:30 PM)", content: "Let's Go 5 美語教學 (涵蓋 Phonics 自然發音進階、生活情境對話、聽說讀寫強化訓練)" },
     "Let's Go 6": { tuition: 31620, materials: 1612, misc: 3060, total: 36292, schedule: "每週授課3次，每次2小時，每週共計6小時 (每週一、週三、週五 4:30 PM - 6:30 PM)", content: "Let's Go 6 美語教學 (涵蓋 Phonics 自然發音進階、生活情境對話、聽說讀寫強化訓練)" },
-    "Advance A1": { tuition: 26180, materials: 2966, misc: 2040, total: 31186, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週開、週五 4:30 PM - 6:30 PM)", content: "Advance A1 (涵蓋 生活情境對話、聽說讀寫強化訓練、英檢練習等)" },
-    "Advance A2": { tuition: 29260, materials: 3826, misc: 2280, total: 35366, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四 4:30 PM - 6:30 PM)", content: "Advance A2 (涵蓋 生活情境對話、聽說讀寫強化訓練、英檢練習等)" },
+    "Advance A1": { tuition: 26180, materials: 2966, misc: 2040, total: 31186, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週三、週五 4:30 PM - 6:30 PM)", content: "Advance A1 (涵蓋 生活情境對話、聽說讀寫強化訓練、英檢練習等)" },
+    "Advance A2": { tuition: 29260, materials: 3826, misc: 2280, total: 35366, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週加、週四 4:30 PM - 6:30 PM)", content: "Advance A2 (涵蓋 生活情境對話、聽說讀寫強化訓練、英檢練習等)" },
     "Advance B1 新進": { tuition: 31160, materials: 3240, misc: 2280, total: 36680, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四晚上 7:00 - 9:00 PM)", content: "Advance B1 (涵蓋 生活情境對話、聽說讀寫強化訓練、英檢練習等)" },
     "Advance B1 晉升": { tuition: 31160, materials: 500, misc: 2280, total: 33940, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四晚上 7:00 - 9:00 PM)", content: "Advance B1 (涵蓋 生活情境對話、聽說讀寫強化訓練、英檢練習等)" },
     "Advance B2 新進": { tuition: 31160, materials: 3240, misc: 2280, total: 36680, schedule: "每週授課2次，每次2小時，每週共計4小時 (每週二、週四晚上 7:00 - 9:00 PM)", content: "Advance B2 (涵蓋 生活情境對話、聽說讀寫強化訓練、英檢練習等)" },
@@ -593,13 +592,12 @@ function syncCourseBrain() {
         document.getElementById('td_misc').innerText = "NT$ " + finalMisc.toLocaleString() + " 元";
         document.getElementById('td_total').innerText = "NT$ " + finalTotal.toLocaleString() + " 元";
         
-        // 渲染選讀內容
         document.getElementById('td_course_content').innerText = data.content;
         
-        // 🎯 🔧 依照最高指示 2：法規本文內文的第二條條款也同步動態注入中英文！
+        // 法規本文第二條第 1 款同步動態注入中英文！
         document.getElementById('legal_course_content').innerText = data.content;
         if(courseKey.indexOf("Let's Go") !== -1) {
-            document.getElementById('legal_course_content_en').innerText = "Let's Go Children's English (including advanced Phonics, situational dialogues, listening, speaking, reading, writing, and intensive特訓 training).";
+            document.getElementById('legal_course_content_en').innerText = "Let's Go Children's English (including advanced Phonics, situational dialogues, listening, speaking, reading, writing, and intensive training).";
         } else {
             document.getElementById('legal_course_content_en').innerText = "Advance Junior English (including situational dialogues, intensive training in listening, speaking, reading, writing, and intensive test preparation training).";
         }
@@ -645,7 +643,7 @@ function decodeUrlParams() {
     }
 }
 
-// ===== 發射前最後安全防呆驗證 =====
+// ===== 發校前最後安全防呆驗證 =====
 function prepareSubmit(event) {
     event.preventDefault();
     
